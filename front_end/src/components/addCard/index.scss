@@ -1,0 +1,48 @@
+
+.addCard-container {
+    border: 1px solid #595B5E;
+    display: flex;
+    border-radius: 12px;
+
+    .addCard-content-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        flex: 1;
+
+        .logo-container {
+            background-color: #374151;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            padding: 1rem;
+        }
+
+        .addCard-title {
+            color: white;
+            font-weight: 600;
+        }
+
+        .addCard-description {
+            color: #9097A3;
+            font-size: 0.855rem;
+        }
+
+        .addCard-button {
+            padding: 0.5rem 0.875rem;
+            background-color: #A6135B;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+
+            .addCard-button-text {
+                color: white;
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+
+.sidebar-container {
+    position: fixed;
+    width: 16rem;
+    height: 100vh;
+    background-color: #1F2937;
+
+    .title-container {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        padding: 1.25rem;
+
+        .title {
+            font-size: 1.125rem;
+            color: white;
+            font-weight: 600;
+            line-height: 1.125rem;
+        }
+    }
+}

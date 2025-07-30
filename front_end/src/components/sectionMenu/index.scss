@@ -1,0 +1,21 @@
+
+
+.sectionmenu-container {
+    margin: 1rem;
+    border-bottom: 1px solid #9CA3AF;
+
+    .sectionmenu-list {
+        display: flex;
+        list-style: none;
+
+        .sectionmenu-item {
+            padding: 1rem;
+            color: #9CA3AF;
+        }
+
+        .sectionmenu-item:hover {
+            border-bottom: 2px solid #187df1;
+            color: #187df1;
+        }
+    }
+}

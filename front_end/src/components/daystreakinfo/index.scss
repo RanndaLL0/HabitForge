@@ -1,0 +1,42 @@
+.daystreak-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #303A49;
+  margin: 1rem;
+  border-radius: 0.5rem;
+
+  .daystreak-title-container {
+
+    display: flex;
+    align-items: center;
+    gap: 10;
+
+    .daystreak-icon-container{
+        background-color: #D01872;
+        padding: 0.35rem 0.2rem;
+        border-radius: 1rem;
+    }
+
+    .daystreak-title {
+      font-size: 0.875rem;
+      color: white;
+      margin-left: 5px;
+      font-weight: 500;
+    }
+  }
+
+  .daystreak-milestone {
+    display: flex;
+    align-items: center;
+
+    .milestone-title {
+        font-size: medium;
+        font-weight: 600;
+        color: white;
+        margin-right: 1rem;
+        font-size: 0.875rem;
+    }
+  }
+
+}

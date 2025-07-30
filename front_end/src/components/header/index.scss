@@ -1,0 +1,22 @@
+
+.header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 1rem;
+
+    .title {
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: white;
+    }
+
+    .options-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}

@@ -1,0 +1,45 @@
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgb(73, 73, 73);
+    background-color: #1F2937;
+    border-radius: 1rem;
+    gap: 10px;
+
+    .checklist-item-container {
+        display: flex;
+        padding: 0.45rem;
+        border-radius: 50%;
+
+        background-color: #374151;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .checklist-item-title-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+        
+        .checklist-item-title {
+            color: white;
+        }
+
+        .checklist-item-description {
+            color: #9097A3;
+            font-size: small;
+        }
+    }
+
+    .checklist-item-check {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.45rem;
+        background-color: #374151;
+        border-radius: 50%;
+        margin-left: auto;
+    }
+}

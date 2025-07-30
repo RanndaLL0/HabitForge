@@ -1,0 +1,19 @@
+
+.list-container {
+
+    margin-top: 10px;
+
+    .list-item {
+        cursor: pointer;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0.7rem 1.125rem;
+        gap: 1rem;
+    }
+
+    .list-item:hover {
+        background-color: #111827;
+    }
+    
+}
