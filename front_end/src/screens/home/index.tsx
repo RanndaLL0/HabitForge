@@ -8,6 +8,7 @@ import CardContainer from "../../components/cardContainer";
 import Card from "../../components/card";
 import AddCard from "../../components/addCard";
 import DailyHabitChecklist from "../../components/dailyHabitChecklist";
+import RecoveryToolkit from "../../components/recoveryToolkit";
 
 export default function Home() {
   return (
@@ -25,7 +26,8 @@ export default function Home() {
           <Card/>
           <AddCard/>
         </CardContainer>
-        <DailyHabitChecklist/>          
+        <DailyHabitChecklist/>
+        <RecoveryToolkit/>
       </ContentContainer>
     </AppContainer>
   );

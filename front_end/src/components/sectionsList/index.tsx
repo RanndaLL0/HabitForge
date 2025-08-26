@@ -1,4 +1,3 @@
-import React from "react";
 import './index.scss'
 import { House,Goal,ClipboardCheck,ShieldHalf,ChartLine ,Users,BookText,Trophy,MessageCircle } from "lucide-react";
 

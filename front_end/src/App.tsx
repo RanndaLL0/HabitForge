@@ -1,8 +1,8 @@
-import AppContainer from "./components/appContainer";
 import Home from "./screens/home";
+import LoginPage from "./screens/login";
 
 function App() {
-  return <Home />;
+  return <LoginPage />;
 }
 
 export default App;

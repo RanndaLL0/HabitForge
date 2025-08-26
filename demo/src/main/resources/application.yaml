@@ -5,16 +5,13 @@ spring:
   datasource:
     platform: postgres
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://db:5332/customer
-    username: <>
-    password: <>
+    url: jdbc:postgresql://localhost:5432/HabitForge_DB
+    username: postgres
+    password: felipevictor5120_
   jpa:
     hibernate:
       ddl-auto: create-drop
     properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format-sql: true
       show-sql: true
     main:
       web-development-type: servlet
